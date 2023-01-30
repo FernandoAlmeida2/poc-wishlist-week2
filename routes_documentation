@@ -11,3 +11,17 @@ DELETE: /series/:id
 GET: /ranking/genre
 
 GET: /ranking/platform
+
+POST: /platforms
+Body: { "name": "Globoplay" }
+
+GET: /platforms
+
+PUT: /platforms/:id
+
+POST: /genres
+Body: { "name": "Documentary" }
+
+GET: /genres
+
+PUT: /genres/:id
