@@ -1,0 +1,13 @@
+POST: /series
+Body: { "name": "Dark", "platform": "Netflix", "genre": "Mystery thriller" }
+
+GET: /series
+
+PATCH: /series
+Body: { "name": "Dark", "status": "finished", "review": "Nice!", "rate": 5 }
+
+DELETE: /series/:id
+
+GET: /ranking/genre
+
+GET: /ranking/platform
