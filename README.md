@@ -16,27 +16,20 @@ npm i
 ```
 
 3. Create a PostgreSQL database with whatever name you want
-4. Run the dump.sql file
-
-```bash
-sudo -i -u postgres
-psql bank_name < dump.sql
-```
-
-5. Configure the `.env` file using the `.env.example` file
-6. Run all migrations
+4. Configure the `.env` file using the `.env.example` file
+5. Run all migrations
 
 ```bash
 npm run dev:migration-generate
 ```
 
-7. Seed db
+6. Seed db
 
 ```bash
 npm run prisma:seed
 ```
 
-8. Run the back-end in a development environment:
+7. Run the back-end in a development environment:
 
 ```bash
 npm run dev
